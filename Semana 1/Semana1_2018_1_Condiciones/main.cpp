@@ -9,7 +9,7 @@ int main()
 
     if(salario>=0.01&&salario<=969.5)
     {
-        cout<<((salario-0.01)*(0.192))+0;
+        cout<<((salario-0.01)*(0.192));
     }
     else if(salario>=969.51&&salario<=1703.8)
     {
