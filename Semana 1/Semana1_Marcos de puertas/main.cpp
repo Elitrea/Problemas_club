@@ -19,6 +19,7 @@ if(b*2<n)
     {
        res=res+1;
     }
+if
 else
 {
 cout<<res;
