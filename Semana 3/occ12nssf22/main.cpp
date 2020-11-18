@@ -4,11 +4,13 @@ using namespace std;
 
 int main()
 {
-char dia[9];
+string dia;
 int dias_mes=0;
 int digito=0;
 int result=0;
-cin>>digito>>dias_mes>>dia;
+cin>>digito;
+cin>>dias_mes;
+cin>>dia;
 
 if(dia=="domingo")
 {
@@ -87,6 +89,7 @@ else if(dia=="sabado")
         result=(dias_mes/2)-4;
     }
 }
+
 cout<<result;
     return 0;
 }
